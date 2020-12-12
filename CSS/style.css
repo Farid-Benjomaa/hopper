@@ -1,0 +1,204 @@
+﻿*{
+margin:0;
+padding:0;
+}
+
+body{
+background-image:url(../img/background/fond2.gif);
+background-color:#effe2e1;
+font-family:Georgia, Times, serif;
+}
+
+.general{
+width:960px;
+margin:0 auto;
+border:2px solid darkgreen;
+}
+
+header{
+width:960px;
+height:360px;
+background:black url(../img/bandeau/nighthawks.jpg) no-repeat center;
+}
+
+header hgroup{
+padding-left:95px;
+padding-top:55px;
+color:#fefb9;
+}
+
+header h1{
+font-size:39px;
+margin-bottom:10px;
+color:#d95a30;
+letter-spacing:3px;
+}
+
+header h1 a{
+text-decoration:none;
+color:white;
+}
+
+header h2{
+font-size:29px;
+font-style:italic;
+margin-bottom:10px;
+color:#d95a30;
+letter-spacing:3px;
+}
+
+nav{
+background-color:#182120;
+height:40px;
+}
+
+nav ul{
+padding-left:10px;
+}
+
+nav ul li {
+line-height:40px;
+display:inline-block;
+padding:0 20px;
+letter-spacing:1px;
+}
+
+nav ul li a{
+color:#ff32e0;
+text-decoration:none;
+width:150px;
+height:40px;
+}
+
+nav ul li a:hover{
+color:#d95a30;
+}
+
+.contenu {
+background-color:f5f5f2;
+width:920px;
+height:auto;
+border-right:1px solid #1d2824;
+padding:20px;
+}
+
+.contenu h3{
+font-size:28px;
+padding:15px 0px 25px 15px;
+}
+
+.contenu p{
+text-align:justify;
+padding:10px 40px;
+line-height:20px;
+}
+
+.right{
+float:right;
+margin: 20px 5px 20px 10px;
+border:2px solid #c9a40e;
+display:block;
+}
+
+.legende{
+font-family:Arial,Helvetica, sans-serif;
+font-size:smaller;
+text-align:center;
+padding:4px;
+}
+
+footer{
+background-color:#333;
+color:#fff;
+padding:21px;
+width:880px;
+display:inline-block;
+}	
+
+footer ul li{
+display:inline-block;
+}
+
+.galerie{
+background-color:black;
+border:2px solid #c9a40e;
+padding: 20px;
+width:880px;
+margin:0 auto;
+
+}
+
+.galerie ul {
+text-decoration:none;
+text-align:center;
+
+}
+
+
+.galerie ul li{
+
+margin:4px;
+display: inline-block;
+
+}
+
+.galerie ul li img{
+border:2px solid #c9a40e;
+
+}
+
+.dessins{
+background-color:black;
+border:2px solid #c9a40e;
+padding: 20px;
+width:880px;
+margin:0 auto;
+}
+
+.dessins ul {
+text-align:center;
+
+}
+
+
+.dessins ul li{
+margin:4px;
+display: inline-block;
+
+}
+
+.dessins ul li img{
+border:2px solid #c9a40e;
+}
+
+h6{
+padding-top:15px;
+
+}
+
+
+.contact{
+width   : 600px ;
+margin  : 20px auto;
+
+}
+
+input{
+width : 255px ;
+margin:5px;
+}
+
+input, textarea {
+border          : 1px solid #bbb ;
+border-radius   : 6px ;
+font-size       : 14px ;
+padding         : 3px 6px 3px 6px ;
+box-shadow      : inset 4px 4px 9px #DDD;
+margin:5px;
+}
+
+button{
+width:60px;
+height:25px
+
+}
